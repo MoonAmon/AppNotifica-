@@ -89,6 +89,12 @@
 		2091D7672AFE5BFB00430D4D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				41239E8A28F840EA00D92C31 /* AppDelegate.swift */,
+				41239E8C28F840EA00D92C31 /* SceneDelegate.swift */,
+				41239E8E28F840EA00D92C31 /* ViewController.swift */,
+				41239E9028F840EA00D92C31 /* Main.storyboard */,
+				41239E9628F840ED00D92C31 /* Assets.xcassets */,
+				41239E9828F840ED00D92C31 /* LaunchScreen.storyboard */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -145,12 +151,6 @@
 			children = (
 				2091D7682AFE5F1A00430D4D /* Source */,
 				2091D7672AFE5BFB00430D4D /* Resource */,
-				41239E8A28F840EA00D92C31 /* AppDelegate.swift */,
-				41239E8C28F840EA00D92C31 /* SceneDelegate.swift */,
-				41239E8E28F840EA00D92C31 /* ViewController.swift */,
-				41239E9028F840EA00D92C31 /* Main.storyboard */,
-				41239E9628F840ED00D92C31 /* Assets.xcassets */,
-				41239E9828F840ED00D92C31 /* LaunchScreen.storyboard */,
 				41239E9B28F840ED00D92C31 /* Info.plist */,
 				41239E9328F840EB00D92C31 /* AppNotifica.xcdatamodeld */,
 			);

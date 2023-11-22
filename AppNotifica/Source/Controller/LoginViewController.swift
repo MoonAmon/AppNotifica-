@@ -11,6 +11,7 @@ import UIKit
 class LoginViewController: UIViewController {
     // Variable getting the login screen
     var viewMain = LoginView()
+    
     override func loadView() {
         // Override the new screen to LoginView
         self.view = viewMain
