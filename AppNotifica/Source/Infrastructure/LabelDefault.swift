@@ -12,13 +12,24 @@ class LabelDefault : UILabel{
     
     init(text: String){
         super.init(frame: .zero)
-        initDefault(text: text)
+        initDefault(text: text, fontName: "SFProDisplay-Light", fontSize: 17)
     }
     
-    private func initDefault(text: String){
+    init(text: String, fontName: String, fontSize: CGFloat) {
+        super.init(frame: .zero)
+        initDefault(text: text, fontName: fontName, fontSize: fontSize)
+    }
+   
+    
+    private func initDefault(text: String, fontName: String, fontSize: CGFloat){
         self.text = text
         self.textColor = .textLabelColor
-        self.font = UIFont(name: "SFProDisplay-Light", size: 17)
+        if let font = UIFont(name: fontName, size: fontSize) {
+            self.font = font
+        } else {
+            self.font = UIFont.systemFont(ofSize: fontSize)
+        }
+        self.numberOfLines = 0
         self.translatesAutoresizingMaskIntoConstraints = false
     }
     

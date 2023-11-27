@@ -1,13 +1,16 @@
 //
-//  LoginCoordinator.swift
+//  RegisterCoordinator.swift
 //  AppNotifica
 //
-//  Created by Dario Pintor on 14/10/22.
+//  Created by Dario Pintor on 20/10/22.
 //
 
 import Foundation
+
+
+import Foundation
 import UIKit
-class LoginCoordinator: Coordinator {
+class RegisterCoordinator: Coordinator {
     
     //faço com que todas as telas que usarem o LoginCoordinator impremente
     //o navigation controller. Senão todos todas as vezes teria que instãnciá-lo
@@ -20,17 +23,8 @@ class LoginCoordinator: Coordinator {
         }
 
       func start() {
-          //chama a login
-        let viewController = LoginViewController()
+        let viewController = RegisterViewController()
             self.navigationController.pushViewController(viewController, animated: true)
 
-          viewController.onRegiterTap = {
-              self.gotoRegister()
-          }
-    }
-    
-    func gotoRegister() {
-        let coordinator = RegisterCoordinator(navigationController: navigationController)
-        coordinator.start()
     }
 }
