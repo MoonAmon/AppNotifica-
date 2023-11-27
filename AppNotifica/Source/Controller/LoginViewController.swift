@@ -2,24 +2,26 @@
 //  LoginViewController.swift
 //  AppNotifica
 //
-//  Created by IFB-BIOTIC-10 on 10/11/23.
+//  Created by Dario Pintor on 14/10/22.
 //
 
 import Foundation
 import UIKit
 
 class LoginViewController: UIViewController {
-    // Variable getting the login screen
+    //cria uma variável que é do tipo LoginView
     var viewMain = LoginView()
     
-    override func loadView() {
-        // Override the new screen to LoginView
-        self.view = viewMain
-    }
+       override func loadView(){
+           self.view = viewMain
+       }
+       
+    // é executado quando está carregando
+       override func viewDidLoad() {
+           super.viewDidLoad()
+            self.title = "Entrar"
+           self.navigationController?.navigationBar.prefersLargeTitles=true
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.title = "Login"
-        self.navigationController?.navigationBar.prefersLargeTitles = true
-    }
+       }
+
 }
