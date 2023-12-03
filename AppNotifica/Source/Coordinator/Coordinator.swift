@@ -2,12 +2,12 @@
 //  Coordinator.swift
 //  AppNotifica
 //
-//  Created by IFB-BIOTIC-10 on 10/11/23.
+//  Created by Dario Pintor on 14/10/22.
 //
 
 import Foundation
 import UIKit
 
-protocol Coordinator{
-    func start()
+protocol  Coordinator {
+        func start ()
 }

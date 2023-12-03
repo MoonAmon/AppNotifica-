@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "01703222-A882-4822-AEE2-5CEB7BFDE3DB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0AFC9A71-B0CC-47F0-ABF4-34E3D5653EA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppNotifica/Source/Controller/Login/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "LoginView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "0AFC9A71-B0CC-47F0-ABF4-34E3D5653EA0 - 3868793beb626622"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppNotifica.LoginView.init(frame: __C.CGRect) -&gt; AppNotifica.LoginView"
+                  moduleName = "AppNotifica"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ifbiotic12/Documents/Swift/AppNotIfica/Sem%20Ti%CC%81tulo/AppNotifica/Source/Controller/Login/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  uuid = "0AFC9A71-B0CC-47F0-ABF4-34E3D5653EA0 - a8edff53cd52e237"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppNotifica.LoginView.onRegisterTap.getter : Swift.Optional&lt;() -&gt; ()&gt;"
+                  moduleName = "AppNotifica"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ifbiotic12/Documents/Swift/AppNotIfica/Sem%20Ti%CC%81tulo/AppNotifica/Source/Controller/Login/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "0AFC9A71-B0CC-47F0-ABF4-34E3D5653EA0 - 531b0b8b4ddc60a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppNotifica.LoginView.onRegisterTap.setter : Swift.Optional&lt;() -&gt; ()&gt;"
+                  moduleName = "AppNotifica"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ifbiotic12/Documents/Swift/AppNotIfica/Sem%20Ti%CC%81tulo/AppNotifica/Source/Controller/Login/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "141">
+               </Location>
+               <Location
+                  uuid = "0AFC9A71-B0CC-47F0-ABF4-34E3D5653EA0 - f5c15f4b8c231250"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppNotifica.LoginView.onRegisterTap.modify : Swift.Optional&lt;() -&gt; ()&gt;"
+                  moduleName = "AppNotifica"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ifbiotic12/Documents/Swift/AppNotIfica/Sem%20Ti%CC%81tulo/AppNotifica/Source/Controller/Login/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "0AFC9A71-B0CC-47F0-ABF4-34E3D5653EA0 - ebdb86ac874f94fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppNotifica.LoginView.onRegisterTap.modify : Swift.Optional&lt;() -&gt; ()&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AppNotifica"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ifbiotic12/Documents/Swift/AppNotIfica/Sem%20Ti%CC%81tulo/AppNotifica/Source/Controller/Login/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1F88543-0316-4B83-9E79-722DAD3618A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppNotifica/Source/Controller/Login/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "textFieldShouldReturn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

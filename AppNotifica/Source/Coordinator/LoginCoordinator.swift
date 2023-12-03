@@ -2,22 +2,45 @@
 //  LoginCoordinator.swift
 //  AppNotifica
 //
-//  Created by IFB-BIOTIC-10 on 10/11/23.
+//  Created by Dario Pintor on 14/10/22.
 //
 
 import Foundation
 import UIKit
-
-class LoginCoordinator: Coordinator{
+class LoginCoordinator: Coordinator {
     
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
-    }
-    
-    func start() {
-        let viewController = LoginViewController()
-        self.navigationController.pushViewController(viewController, animated: true)
-    }
-    
+    //faço com que todas as telas que usarem o LoginCoordinator implementem o navigation controller. Senão todos todas as vezes teria que instãnciá-lo
     var navigationController: UINavigationController
+    
+    //cria um construtor para incializar meu navationCrontroller
+    init (navigationController: UINavigationController ) {
+            self.navigationController = navigationController
+     
+        }
+
+      func start() {
+     //chama a login
+     let viewController = LoginViewController()
+          self.navigationController.pushViewController(viewController, animated: true)
+          
+          
+          viewController.onRegisterTap = {
+              self.gotoRegister()
+          }
+          
+          viewController.onLoginTap = {
+              self.gotoLogin()
+          }
+    }
+    
+    //função que chama a registerView
+    func  gotoRegister() {
+        let coordinator = RegisterCoordinator(navigationController: navigationController)
+        coordinator.start()
+    }
+        //função que chama a registerView
+        func  gotoLogin() {
+           let coordinator = TabbarCoordinator(navigationController: navigationController)
+            coordinator.start()
+        }
 }
